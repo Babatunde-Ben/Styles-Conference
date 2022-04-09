@@ -1,0 +1,62 @@
+/* This stylesheet is for only the main contents of the speaker's page */
+
+main {
+  padding: 40px 180px;
+}
+main .info-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main .info-ctn .speakers-info {
+  width: 550px;
+  margin-bottom: 60px;
+}
+
+main .info-ctn .name {
+  color: var(--color1);
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+main .info-ctn .sub-topic {
+  color: var(--color2);
+  margin-bottom: 22px;
+  font-weight: 100;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+main .info-ctn p {
+  color: var(--color4);
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .info-ctn .speakers-info a {
+  color: var(--color1);
+  text-decoration: underline;
+}
+main .info-ctn .contact-details {
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  width: 300px;
+  height: 180px;
+  margin-top: 80px;
+}
+main .info-ctn .contact-details img {
+  border-radius: 50%;
+  width: 130px;
+  display: block;
+  margin: 0 auto;
+  transform: translateY(-40px);
+}
+main .info-ctn .contact-details a {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  color: var(--color1);
+  transform: translateY(-15px);
+}
+#grey:hover {
+  color: #b9b9b9;
+}

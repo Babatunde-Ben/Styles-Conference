@@ -1,0 +1,37 @@
+/* This stylesheet is for only the main contents of the venue's page */
+
+main {
+  padding: 60px 180px;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.location:nth-child(1) {
+  margin-bottom: 60px;
+}
+
+.location article .point {
+  color: var(--color1);
+  margin: 10px 0;
+  font-weight: 400;
+}
+.address,
+.website {
+  line-height: 22px;
+  color: var(--color4);
+  margin-bottom: 20px;
+}
+.location article .website a {
+  display: inline-block;
+  color: var(--color1);
+  text-decoration: underline;
+}
+.location article .website .hover-grey:hover {
+  color: var(--color2);
+}
+.location img {
+  width: 600px;
+  border-radius: 5px;
+}

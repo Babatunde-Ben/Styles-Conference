@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+:root {
+  --color1: #588077;
+  --color2: #8da197;
+  --color3: #293f50;
+  --color4: #657c74;
+}
+.hover-green:hover {
+  color: var(--color1);
+}
+.hover-grey:hover {
+  color: var(--color2);
+}
+body {
+  font-family: "Lato-Light", sans-serif;
+}
+
+header {
+  background-color: var(--color3);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 180px 40px 180px;
+}
+header a {
+  color: white;
+}
+header h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 48px;
+  padding-top: 40px;
+  border-top: 4px solid #648880;
+  line-height: 45px;
+  font-weight: 100;
+}
+header nav {
+  text-align: right;
+}
+.hover-green:hover {
+  color: var(--color1);
+}
+
+header nav ul li {
+  float: left;
+  margin: 20px 0px 0px 20px;
+  text-transform: uppercase;
+  font-size: 90%;
+  list-style-type: none;
+}
+header nav ul li a {
+  color: white;
+}
+header nav h3 {
+  color: var(--color1);
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.section-gradient {
+  background: linear-gradient(to right, rgb(178, 226, 198), rgb(246, 245, 220));
+  padding: 30px 180px;
+  text-align: center;
+}
+.section-gradient .gradient-title {
+  color: var(--color1);
+  font-weight: 100;
+  padding: 20px 0;
+  font-size: 38px;
+}
+.section-gradient p {
+  color: var(--color4);
+
+  line-height: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+footer {
+  height: 15vh;
+  background-color: var(--color3);
+  padding: 0 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  color: var(--color1);
+}
+footer nav ul li {
+  float: left;
+  margin-left: 20px;
+  font-size: 90%;
+  list-style-type: none;
+}
+footer nav ul li a {
+  color: white;
+}

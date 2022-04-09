@@ -1,0 +1,99 @@
+/* This stylesheet is for only the main contents of the register's page */
+
+main {
+  padding: 40px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main .body-note {
+  width: 550px;
+}
+
+h2,
+h3 {
+  font-weight: 400;
+}
+main .body-note h2 {
+  color: var(--color4);
+  margin-bottom: 10px;
+}
+main .body-note .price {
+  color: var(--color2);
+  font-size: 14px;
+}
+main .body-note p {
+  margin: 20px 0;
+  line-height: 24px;
+  color: #8195a7;
+}
+main .body-note .why {
+  color: var(--color4);
+  margin-bottom: 20px;
+}
+main .body-note ul {
+  list-style-type: square;
+  margin-left: 30px;
+  color: #8195a7;
+  line-height: 24px;
+}
+main form {
+  width: 300px;
+}
+main form div {
+  margin-bottom: 20px;
+}
+main form label {
+  display: block;
+  padding: 5px 0;
+  color: var(--color4);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 100;
+}
+main form input {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: sans-serif;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color2);
+  background: transparent;
+  color: var(--color2);
+}
+
+form select {
+  background-color: transparent;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: var(--color2);
+}
+
+form textarea {
+  background-color: transparent;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--color2);
+  border: 1px solid var(--color2);
+  width: 100%;
+}
+form button {
+  background-color: var(--color4);
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
